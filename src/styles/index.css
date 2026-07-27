@@ -45,7 +45,7 @@ body {
   height: 20vmin;
   background-color: #0700ff;
   transform-origin: 50% 100%;
-  animation: move 60 min steps(60) infinite;
+  animation: move 3600s steps(60) infinite;
 }
 
 @keyframes move {
@@ -56,13 +56,12 @@ body {
     transform: rotate(360deg);
   }
 }
-
 .stopwatch--speed-up .stopwatch__seconds-hand {
   animation-duration: 10s;
 }
 
 .stopwatch--speed-up .stopwatch__minutes-hand {
-  animation-duration: 10 min;
+  animation-duration: 600s;
 }
 
 /*# sourceMappingURL=index.css.map */
