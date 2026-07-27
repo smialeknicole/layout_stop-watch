@@ -64,10 +64,10 @@ body {
   }
 }
 
-.stopwatch--speed-up .stopwatch__seconds-hand {
+.speed-up .stopwatch__seconds-hand {
   animation-duration: $s-speed-duration;
 }
 
-.stopwatch--speed-up .stopwatch__minutes-hand {
+.speed-up .stopwatch__minutes-hand {
   animation-duration: $min-speed-duration;
 }
