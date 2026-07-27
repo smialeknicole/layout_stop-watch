@@ -56,6 +56,7 @@ body {
     transform: rotate(360deg);
   }
 }
+
 .stopwatch--speed-up .stopwatch__seconds-hand {
   animation-duration: 10s;
 }
